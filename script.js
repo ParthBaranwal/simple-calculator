@@ -24,6 +24,9 @@ function calculateResult() {
         case '+':
             result = firstOperand + secondOperand;
             break;
+        case '*':  // Added multiplication logic
+            result = firstOperand * secondOperand;
+            break;
         case '-':
             result = firstOperand - secondOperand;
             break;
